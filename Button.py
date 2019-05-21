@@ -6,7 +6,7 @@ def show():                                                       # creating fun
 def save():                                                       # creating function to save information
   f = open('data.txt', 'w')                                       # opening file in write mode in which we want ot save the following info
   f.write(f'First Name: {s1.get()}\nLast Name: {s2.get()}')       # writing to the file 
-  f.close()  # closing it
+  f.close()                                                       # closing it
 
 master = Tk()
 Label(master, text="First Name").grid(row=0)                      # text information and position
