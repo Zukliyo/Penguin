@@ -12,5 +12,5 @@ class Isogram:   # An isogram (also known as a "nonpattern word") is a logologic
       print('file does not exist')
       
 s = Isogram('text.txt')   # create object and give it text file which you want to be read
-s.getter_setter()    # call the class function by name of this class_name.Function_name()
+s.getter_setter()    # call the class function by name of class exmpl: class_name.Function_name()
 
