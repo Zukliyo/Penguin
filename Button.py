@@ -18,7 +18,7 @@ s2 = Entry(master)
 s1.grid(row=0, column=1)                                          # position,try yourself to understand
 s2.grid(row=1, column=1)
 
-Button(master, text='Exit', command=master.quit).grid(row=3, column=0, sticky=W, pady=4)  creating Button , giving him name and commant which we want him to do, and his tion
+Button(master, text='Exit', command=master.quit).grid(row=3, column=0, sticky=W, pady=4)       # creating Button , giving him name and commant which we want him to do, and his tion
 Button(master, text='Show', command=show).grid(row=3, column=1, sticky=W, pady=4)
 Button(master, text='Save', command=save).grid(row=3, column=2, sticky=W, pady=4)
 
