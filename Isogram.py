@@ -1,6 +1,6 @@
-class Isogram:         #  An isogram (also known as a "nonpattern word") is a logological term for a word or phrase without a repeating letter
+class Isogram:    #  An isogram (also known as a "nonpattern word") is a logological term for a word or phrase without a repeating letter
   def __init__(self, text_file):
-    self.text_file = text_file         #  initialisation of text file
+    self.text_file = text_file     #  initialisation of text file
 
   def getter_setter(self):
     try:    #   trying to search file
