@@ -1,4 +1,4 @@
-import re
+import re   # importing regex
 class Pangram():
   def __init__(self, text):
     self.text = text   # initialisation of text
