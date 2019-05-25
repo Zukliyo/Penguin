@@ -22,7 +22,6 @@ class P:
       # if length of the password is less than 6, other checks won't work
       else:
         print('Password must be at least 6 characters long')
-        
-        
+
 s = P(input('Enter password:  '))
 s.validate()
