@@ -1,5 +1,4 @@
 # Penguin
-python
 
 
 Welcome :))
