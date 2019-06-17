@@ -1,12 +1,18 @@
-import requests  # importing requests
+# importing requests
+import requests  
 
-url = 'http://api.citybik.es/v2/networks'  # link
-user = input('City:  ').capitalize()  # capitalize - firs letter upercase
+# link
+url = 'http://api.citybik.es/v2/networks' 
+# capitalize - firs letter upercase
+user = input('City:  ').capitalize()
+# requesting site
+response = requests.get(url)
 
-response = requests.get(url)  # requesting site
-json_content = response.json()  # reading json content
+# reading json content
+json_content = response.json()
 networks = json_content['networks']
 
+# taking information i want, which is in dict
 for item in networks:
   if user == item['location']['city']:    
     company = item['company'][0]
@@ -26,6 +32,7 @@ class Info:
     
   def setter(self):
     print(f'Company: {self.company}\nCity: {self.city}\nCountry index:  {self.country_index}\nLatitude:  {self.latitude}\nLongitude:  {self.longitude}')
-    
-s = Info(company, city, country_index, latitude, longitude)  # saving information in object
+
+# saving information in object    
+s = Info(company, city, country_index, latitude, longitude)  
 s.setter()
