@@ -26,3 +26,5 @@ s = Isogram('text.txt')
 # call the class function by name of class exmpl: class_name.Function_name()                                
 s.getter_setter()                                           
 
+
+#Penguin
