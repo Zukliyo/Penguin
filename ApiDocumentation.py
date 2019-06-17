@@ -36,3 +36,6 @@ class Info:
 # saving information in object    
 s = Info(company, city, country_index, latitude, longitude)  
 s.setter()
+
+
+#Penguin
