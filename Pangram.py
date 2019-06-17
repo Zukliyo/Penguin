@@ -18,3 +18,6 @@ class Pangram():
 # sentence
 s = Pangram('The quick brown fox jumps over the lazy dog')   
 s.checker()
+
+
+#Penguin
