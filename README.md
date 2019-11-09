@@ -1,6 +1,4 @@
-# Zuka
+# Henloo
 
 
-Henloo my name is zuka
-                      i am glad to see you here ^^
-                                                  Welcome :))
+My name is zuka and i am glad to see you here ^^ Welcome :))
