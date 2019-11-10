@@ -174,7 +174,8 @@ def menu():
 menu()  #lesss go
 
 
-# >>>>>>>>>>>> Note <<<<<<<<<<<<<
+#    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Note <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 # it won't work if you create todo file yourself, because simply just one space is important in this Todo.txt file 
 # for example file looks like this:
 #                                   1) Data: 10/11/2019 18:02:01 
